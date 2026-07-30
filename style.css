@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecc3c5;
+
+}
+
+#box {
+    height: 680px;
+    width: 85%;
+    padding: 5px 15px 0 15px;
+    background-color: #3E151D;
+    border-radius: 12px;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+
+}
+
+#left_ul {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 8px;
+}
+
+#left_ul img {
+    height: 47px;
+    width: 47px;
+}
+
+#text {
+    color: white;
+    font-size: 30px;
+}
+
+#right_ul {
+    height: 100%;
+    width: 83%;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 18px;
+}
+
+#middle_sec {
+    height: 595px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left_sec {
+    height: 595px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+    padding-left: 40px;
+}
+
+#txt1 {
+    font-size: 35px;
+    color: #EE8D38;
+    font-style: oblique;
+
+}
+
+#left_sec h2 {
+    color: white;
+    font-size: 30px;
+}
+
+#txt2 {
+    color: white;
+    font-size: 20px;
+}
+
+#btn_sec {
+    margin-top: 10px;
+    display: flex;
+    gap: 18px;
+}
+
+#btn1 {
+    width: 150px;
+    padding: 12px;
+    color: black;
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+    background-color: #E28D1D;
+}
+
+#btn2 {
+    width: 150px;
+    padding: 12px;
+    color: white;
+    border-radius: 20px;
+    font-size: 17px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+#right_sec {
+    height: 595px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding :0 0 40px 70px;
+
+}
+
+#right_sec img {
+    width: 520px;
+    height: 80%
+}
